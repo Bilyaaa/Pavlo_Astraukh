@@ -328,6 +328,14 @@ nav a:hover {
     .about {
         margin-top: 0;
     }
+
+    .experience:hover {
+    outline: unset;
+    box-shadow: unset;
+    background-color: #16232e;
+    transition: all linear .2s;
+    cursor: pointer;
+}
 }
 
 @media(max-width: 667px) {

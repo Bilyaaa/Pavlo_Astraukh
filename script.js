@@ -12,7 +12,7 @@
 
 // observer.observe(document.querySelector('.observe'))
 
-
+console.log("123")
 
 // document.addEventListener("scroll", () => {
 

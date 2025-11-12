@@ -108,9 +108,15 @@ nav a:hover {
 
 .links {   
     display: flex;
+    align-items: center;
+    color: grey;
 }
 
 .links-mobile {
+    display: none;
+}
+
+.mail-mobile {
     display: none;
 }
 
@@ -309,6 +315,12 @@ nav a:hover {
         
     }  
 
+    .mail-mobile {
+        display: block;
+        color: grey;
+        margin-top: .5rem;
+    }
+
     .nav-mobile {
         display: inline-block;
     }
@@ -345,10 +357,15 @@ nav a:hover {
     .project-container img {
         max-width: 300px;
         margin-bottom: 2rem;
+        margin-right: 0;
     }
 
     .links-mobile {
         justify-content: center;
+    }
+
+    .mail-mobile {
+        text-align: center;
     }
 }
 
